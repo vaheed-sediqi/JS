@@ -1,0 +1,11 @@
+#page-title{
+  color: orange;
+}
+
+.style {
+  margin: 0 auto;
+  color: pink;
+  border-bottom: 1px pink solid;
+  font-size: 70px;
+  text-transform: uppercase;
+}
