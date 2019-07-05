@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM | Query Selector</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+    #page-title{
+        text-align: center;
+        border-bottom: 2px gray solid;
+        background-color: lightgray;
+        line-height: 80px;
+    }
+
+    #demo{
+        text-align: center;
+        margin-top: 25px;
+        color: blue;
+    }
+ ul{
+ }
+    li {
+        list-style-type: none;
+        max-width: 200px;
+        padding: 8px;
+        background: #eee;
+        border: 1px dotted #ddd;
+        text-align: center;
+        cursor:pointer;
+        margin: 5 auto;
+    }
+    button {
+      background: #eee;
+      padding: 5px 70px;
+      margin-top: 15px;
+      margin-left: 10px;
+      border: 1px dotted #ddd;
+      border-radius: 5px;
+    }
+
+    .wrapper {
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div id="page-title">
+         <h1>Modern JavaScript (from Novice to Ninja)</h1>
+         <h2>DOM (EventListener)</h2>
+    </div>
+  <div class="wrapper">
+   <h1>Todos</h1>
+    <ul>
+     <li>Buy milk</li>
+     <li>Read books</li>
+     <li>Play musik</li>
+     <li>Go to walking</li>
+     <li>Drink tea</li>
+    </ul>
+    <button>Add new dotos</button>
+</div>
+    <script src="./main.js"></script>
+</body>
+</html>
