@@ -10,5 +10,10 @@ copy.addEventListener('copy', () => {
 
 const box = document.querySelector('.box');
 box.addEventListener('mousedown', e => {
-  console.log(e.offsetX);
+  // console.log(e.offsetX, e.offsetY);
+  box.textContent = `X pos - ${e.offsetX} Y pos ${e.offsetY}`;
 });
+
+document.addEventListener('wheel', e => {
+  console.log(e.pageX, e.pageY);
+})
